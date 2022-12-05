@@ -1,5 +1,3 @@
-
-
 def read_file():
 
     read_file = open("input_location.txt", "r")
@@ -66,8 +64,6 @@ def part2(lines, priorities):
             total_priority += priorities[i]
 
     print(total_priority)
-
-
 
 def main():
     priorities = {
